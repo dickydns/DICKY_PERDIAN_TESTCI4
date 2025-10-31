@@ -1,0 +1,245 @@
+CRITICAL - 2025-10-31 05:46:54 --> ErrorException: Array to string conversion
+[Method: POST, Route: submit_guest]
+in APPPATH\Controllers\Home.php on line 14.
+ 1 APPPATH\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Controllers\\Home.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->submit_guest()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:06:40 --> ErrorException: Undefined variable $list
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:07:07 --> ErrorException: Undefined variable $list
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:07:21 --> ErrorException: Undefined variable $list
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 249.
+ 1 APPPATH\Views\admin.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 249)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:07:30 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:08:05 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:08:06 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:08:28 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(20): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:08:30 --> TypeError: App\Controllers\Home::list(): Return value must be of type string, none returned
+[Method: GET, Route: list]
+in APPPATH\Controllers\Home.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:09:25 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:09:43 --> ErrorException: Attempt to read property "name" on array
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 252.
+ 1 APPPATH\Views\admin.php(252): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "name" on array', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 252)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:21:24 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 244.
+ 1 APPPATH\Views\admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 244)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:22:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 244.
+ 1 APPPATH\Views\admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 244)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:22:24 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: list]
+in APPPATH\Views\admin.php on line 244.
+ 1 APPPATH\Views\admin.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php', 244)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->list()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:27:50 --> ErrorException: Undefined variable $guests
+[Method: GET, Route: export]
+in APPPATH\Controllers\Home.php on line 72.
+ 1 APPPATH\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guests', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Controllers\\Home.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->export()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:27:51 --> ErrorException: Undefined variable $guests
+[Method: GET, Route: export]
+in APPPATH\Controllers\Home.php on line 72.
+ 1 APPPATH\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guests', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Controllers\\Home.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->export()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:28:02 --> ErrorException: Undefined variable $guests
+[Method: GET, Route: export]
+in APPPATH\Controllers\Home.php on line 72.
+ 1 APPPATH\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guests', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Controllers\\Home.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->export()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
+CRITICAL - 2025-10-31 06:28:04 --> ErrorException: Undefined variable $guests
+[Method: GET, Route: export]
+in APPPATH\Controllers\Home.php on line 72.
+ 1 APPPATH\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $guests', 'C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\app\\Controllers\\Home.php', 72)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->export()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\TEST_DICKY_PERDIAN_BUKU_TAMU\\public\\index.php')
